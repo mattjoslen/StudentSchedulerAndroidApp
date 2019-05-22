@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Matt Joslen Project</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="student_overview">Student Overview</string>
+    <string name="term_courses">Term Courses</string>
+    <string name="add_a_course_for_this_term">Add a course for this term</string>
+</resources>

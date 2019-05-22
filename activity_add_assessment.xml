@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="455dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="70dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginEnd="70dp"
+    android:layout_marginBottom="46dp"
+    android:orientation="vertical"
+    tools:context=".AddTerm">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Assessment Info"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etAssessmentName"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Assessment Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:autofillHints="2019-05-01"
+        android:ems="10"
+        android:hint="Due Date (2019-06-30)"
+        android:inputType="date"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <Switch
+        android:id="@+id/typeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:checked="false"
+        android:showText="false"
+        android:switchMinWidth="45sp"
+        android:text="Objective | Performance"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:checked="false" />
+
+    <Switch
+        android:id="@+id/addAssessmentAlertSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:lineSpacingExtra="18sp"
+        android:switchMinWidth="45sp"
+        android:text="Set an alert for this assessment"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:checked="false" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:lineSpacingExtra="18sp"
+        android:text="Submit"
+        android:textAlignment="center" />
+
+</LinearLayout>
